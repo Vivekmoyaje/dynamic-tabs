@@ -1,0 +1,71 @@
+.dynamic-tabs {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-tabs .tab-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dynamic-tabs .tab-header .tab {
+  margin-top: 10px;
+  padding: 10px 10px 10px 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dynamic-tabs .tab-header .tab.active {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.dynamic-tabs .tab-header .tab:hover {
+  background-color: #f5f5f5;
+}
+
+.dynamic-tabs .tab-content {
+  padding: 20px;
+}
+
+.dynamic-tabs .tab-content .active-content {
+  display: block;
+}
+
+.dynamic-tabs .tab-content .inactive-content {
+  display: none;
+}
+
+.add-tab-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-tab-btn:hover {
+  background-color: #3e8e41;
+}
+
+.remove-tab-btn {
+  margin-left: 50px;
+  background-color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-tab-btn:hover {
+  background-color: #ff0000;
+}
