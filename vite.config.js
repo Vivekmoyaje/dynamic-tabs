@@ -7,6 +7,6 @@ export default defineConfig({
     outDir: "build", // This makes sure Vite outputs to the 'build' folder
   },
 
-  base: "/react-routing/", // Add this line
+  base: "/dynamic-tabs", // Add this line
   plugins: [react()],
 });
